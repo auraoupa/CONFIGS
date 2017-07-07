@@ -48,8 +48,8 @@
 
 %CPP                 cpp
 %FC                  mpif90 -c -cpp
-#%FCFLAGS             -i4 -r8 -O2 -fp-model precise 
-%FCFLAGS             -i4 -r8 -g -fpe0 -traceback -CB -O2 -fp-model precise  
+%FCFLAGS             -i4 -r8 -O2 -fp-model precise 
+#%FCFLAGS             -i4 -r8 -g -fpe0 -traceback -CB -O2 -fp-model precise  
 %FFLAGS              %FCFLAGS
 %LD                   mpif90
 %FPPFLAGS            -P -C -traditional
